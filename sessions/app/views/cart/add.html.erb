@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Using session for winkelwagentje</title>
+</head>
+<body>
+  <h1>Using session for winkelwagentje</h1>
+
+  <%= form_tag({:action => "add"}, {:method => "post"}) %>
+  <br>
+  Winkelwagentje: <%=@cart%> <br>
+  <input type= "submit"/>
+  <%= form_tag %>
+</body>
+  </html>
